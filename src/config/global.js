@@ -1,10 +1,9 @@
 export default {
   global: {
-    componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+    componenteFormativo: 'El riesgo con respecto a SARLAFT',
     descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
+      'La gestión de riesgo en Colombia y su aplicación en entidades privadas y públicas es un tema que se viene trabajando desde los años 90; sin embargo, en los últimos tiempos ha tomado no solo  fuerza sino importancia con el Sistema de administración del riesgo de lavado de activos y financiación del terrorismo (SARLAFT). <br/><br/>Todas las organizaciones deben prepararse para su conocimiento y su implementación, más que por cumplir un requisito, es un método de prevención y cuidado ante hechos de tipo delictivo a nivel organizacional.',
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
@@ -24,116 +23,32 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Fundamentación de SARLAFT',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
+            titulo: 'Etapas',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
+            titulo: 'Elementos',
+            hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
+            titulo: 'Sectores',
+            hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
+            titulo: 'Línea de tiempo',
+            hash: 't_1_4',
           },
         ],
       },
@@ -141,92 +56,22 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Lavado de activos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Infografía Animada',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Video Motion',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Motion + Presentador',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Animación 2D',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Video interactivo',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Financiación del terrorismo',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Clasificación de los hilos',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Clasificación de tejidos',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
-          },
-        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'El riesgo',
+        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -260,141 +105,139 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Gafilat. (2.020). Estándares internacionales sobre la lucha contra el lavado de activos y el financiamiento del terrorismo y el financiamiento de la proliferación de armas. Gafilat.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.gafilat.org/index.php/es/biblioteca-virtual/gafilat/documentos-de-interes-17/publicaciones-web/4013-recomendaciones-metodologia-actdic20-1/file ',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'INFOLAFT. (2021). SARLAFT 4.0 y la transformación del sistema antilavado. INFOLAFT. ',
+      link: 'https://www.infolaft.com/?s=sarlaft ',
+    },
+
+    {
+      referencia:
+        'Rojas, D  y Posada, L. (2021). Conocimiento del cliente: gestión efectiva del riesgo de lavado de activos y financiación del terrorismo en empresas aseguradoras. Universidad del Valle.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://bibliotecadigital.univalle.edu.co/xmlui/bitstream/handle/10893/21092/CB-0605573.pdf?sequence=1&isAllowed=y ',
     },
+
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Valbuena, A. (2.018). Sistema de administración del riesgo de lavado de activos INCP. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://incp.org.co/sistema-administracion-del-riesgo-lavado-activos/ ',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Decreto',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Es un acto administrativo promulgado por el poder ejecutivo con contenido normativo reglamentario, sin necesidad de ser sometido al órgano legislativo.',
     },
     {
-      termino: 'Suftware',
-      terminoHtml: '<em>Suftware</em>',
+      termino: 'Factores de riesgo',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Son los agentes generadores del riesgo de LA/FT. Para efectos del SARLAFT las entidades vigiladas deben tener en cuenta como mínimo los siguientes: clientes/usuarios, productos, canales de distribución y jurisdicciones.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Financiamiento de delitos',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Actividad por la cual cualquier persona deliberadamente provee o recolecta fondos o recursos por el medio que fuere, directa o indirectamente, con la intención ilícita de que sean utilizados o a sabiendas que serán utilizados en todo o en parte para cometer un acto o actos delictivos.',
     },
     {
-      termino: 'Áectores',
-      terminoHtml: '<em>Áectores</em>',
+      termino: 'Formularios de inclusión',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Son los formatos estandarizados que deben llenarse con la información de las contrapartes, al inicio de la relación contractual o comercial con la entidad, cada vez que una transacción lo amerite y cuando se juzgue necesario actualizar datos. Los formularios pueden ser solicitudes para convertirse en socio, cliente de crédito o inversión, aperturas de cuenta, inscripción como proveedor o de empleo, entre otros.',
     },
     {
-      termino: 'Moda',
+      termino: 'Formularios de origen y destino de recursos',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Es una declaración expresa del socio o cliente, indicando que los recursos que moviliza tienen origen lícito o serán usados de forma lícita.',
     },
     {
-      termino: 'DIseño',
+      termino: 'F/T',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Actividad por la cual cualquier persona deliberadamente provee o recolecte fondos o recursos por el medio que fuere, directa o indirectamente, con la intención ilícita de que sean utilizados o a sabiendas que serán utilizados, en todo o en parte para cometer un acto o actos de terrorismo, por una organización terrorista o por un terrorista. ',
     },
     {
-      termino: 'Diseña',
+      termino: 'LA',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Es el proceso mediante el cual se da apariencia de licitud al dinero y activos obtenidos de fuentes ilícitas, a través de varias formas denominadas tipología. ',
     },
     {
-      termino: 'Tipología',
+      termino: 'Leyes',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Son el conjunto de normas jurídicas dictaminadas por un legislador, o sea, por una autoridad competente en la materia. Su función es ordenar, prohibir o permitir algo específico y concreto.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Operación inusual',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Es aquella cuya cuantía o características no guardan relación con la actividad económica de los clientes o que por su número, por las cantidades transadas o por sus características particulares se salen de los parámetros de normalidad establecidos.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Operación sospechosa',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es aquella que por su número, cantidad o características no se enmarca dentro de los sistemas y prácticas normales de los negocios, de una industria o de un sector determinado. ',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Producto',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Son las operaciones legalmente autorizadas que pueden adelantar las entidades vigiladas mediante la celebración de un contrato.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Resolución ',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Las resoluciones son decisiones, no normativas por parte de una autoridad ya sea política, administrativa o judicial que solventa un conflicto o da pautas a seguir en una materia determinada.',
+    },
+    {
+      termino: 'Riesgo inherente',
+      significado:
+        'Es el nivel de riesgo propio de la actividad, sin tener en cuenta el efecto de los controles.',
+    },
+    {
+      termino: 'Riesgo legal',
+      significado:
+        'Es la posibilidad de pérdida en que incurre una entidad al ser sancionada u obligada a indemnizar daños como resultado del incumplimiento de normas o regulaciones y obligaciones contractuales. Surge también como consecuencia de fallas en los contratos y transacciones, derivadas de actuaciones malintencionadas, negligencia o actos involuntarios que afectan la formalización o ejecución de contratos o transacciones.',
+    },
+    {
+      termino: 'Riesgo operativo',
+      significado:
+        'Es la posibilidad de incurrir en pérdidas por deficiencias, fallas en el talento humano, los procesos, la tecnología, la infraestructura o por la ocurrencia de acontecimientos externos. Esta definición incluye el riesgo legal y reputacional, asociados a tales factores.',
+    },
+    {
+      termino: 'Riesgos asociados al LA/FT',
+      significado:
+        'Con los riesgos a través de los cuales se materializa el riesgo de LA/FT, estos son: reputacional, legal, operativo y de contagio. ',
+    },
+    {
+      termino: 'Superintendencia Financiera de Colombia ',
+      significado:
+        'Es un organismo técnico adscrito al Ministerio de Hacienda y Crédito Público, con personería jurídica, autonomía administrativa, financiera y patrimonio propio.',
+    },
+    {
+      termino: 'Transferencia',
+      significado:
+        'Es la transacción efectuada por una persona natural o jurídica denominada ordenante, a través de una entidad autorizada en la respectiva jurisdicción para realizar transferencias nacionales y/o internacionales, mediante movimientos electrónicos o contables, con el fin de que una suma de dinero se ponga a disposición de una persona natural o jurídica denominada beneficiaria, en otra entidad autorizada para realizar este tipo de operaciones. ',
+    },
+    {
+      termino: 'Unidad de Información y Análisis Financiero - UIAF',
+      significado:
+        'De conformidad con las Leyes 526 de 1999 (modificada por la Ley 1121 de 2006 y 1762 de 2015) y la Ley 1621 de 2013 y con los Decretos 1068 y 1070 de 2015 “la Unidad de Información y Análisis Financiero (UIAF) es un organismo de inteligencia y contrainteligencia del Estado, adscrito al Ministerio de Hacienda y Crédito Público, cuyas funciones son las de intervenir en la economía mediante actividades de inteligencia financiera y económica, con el fin de prevenir y detectar conductas que puedan estar asociadas a los delitos de lavado de activos, financiación del terrorismo, contrabando y/o fraude aduanero”. A esta entidad se hacen reportes de operaciones sospechosas ROS.',
+    },
+    {
+      termino: 'Usuarios',
+      significado:
+        'Son aquellas personas naturales o jurídicas a las que sin ser clientes la entidad les presta un servicio.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+        'Grupo Bancolombia.  (2014). ¿Sabes qué es el lavado de activos y cómo prevenirlo? [video]. YouTube. ',
       tipo: 'Video',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      link:
+        'https://www.youtube.com/watch?v=WT5YQ4qV9yY&ab_channel=GrupoBancolombia',
     },
   ],
   creditos: {
@@ -410,7 +253,29 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
+      },
+      {
+        nombre: 'Jhon Jairo Villamizar Mora',
+        cargo: 'Experto temático ',
+        centro:
+          'Centro de la Industria, la Empresa y los Servicios CIES <br>Regional Norte de Santander',
+      },
+      {
+        nombre: 'Claudia Milena Hernández Naranjo',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Diseño y Metrología <br>Regional Distrito Capital',
+      },
+      {
+        nombre: 'Silvia Milena Sequeda Cárdenas',
+        cargo: 'Evaluadora instruccional',
+        centro: 'Centro de Gestión Industrial <br>Regional de Distrito Capital',
+      },
+      {
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica <br>Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -418,43 +283,49 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios <br>Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Juan Carlos Tapias Rueda',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Andrea Paola Botello De la Rosa',
+        cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Andres Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
+      },
+      {
+        nombre: ' ',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: ' ',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios <br>Regional Tolima',
       },
     ],
   },
