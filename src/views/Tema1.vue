@@ -66,14 +66,14 @@
 
     .row(data-aos="fade-down")
       .col-md-3.mb-3
-        .block(@mouseover="mostrarIndicador = false", onclick="")
-          .indicador--click(v-if="mostrarIndicador")
+        .block
           .block--img.block1
           .block--text
             h4 Identificar el riesgo
             p Se debe identificar todos los riesgos que posiblemente estén implicados con el lavado de activos y la financiación del terrorismo.
       .col-md-3.mb-3
-        .block
+        .block(@mouseover="mostrarIndicador = false", onclick="")
+          .indicador--click(v-if="mostrarIndicador")
           .block--img.block2
           .block--text
             h4 Medición y/o impacto del riesgo
@@ -351,13 +351,14 @@
 
     p.mb-4(data-aos="fade") Los tipos de reportes que deben realizarse a la UAIF se muestran en la siguiente figura.
 
-    .row.justify-content-center(data-aos="fade-down")
-      .col-md-10.tarjeta.bg-secundario-2.p-4
-        .titulo-sexto.color-acento-contenido
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-md-10
+      .titulo-sexto.color-acento-contenido
           p.mb-0 <b>Figura 2.</b> Tipos de reportes
-   
-
-
+      .col-md-10.tarjeta.bg-secundario-2.p-5
+        .row.justify-content-center  
+          .col-md-7
+            BotonesB
 
 
     .row.align-items-center.mb-4(data-aos="fade-right")
@@ -842,10 +843,12 @@
 
 <script>
 import AcordeonB from '../components/AcordeonB'
+import BotonesB from '../components/BotonesB'
 export default {
   name: 'Tema1',
   components: {
     AcordeonB,
+    BotonesB,
   },
   data: () => ({
     mostrarIndicador: true,
