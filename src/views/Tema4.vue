@@ -41,13 +41,11 @@
 
     p.mb-4(data-aos="fade")  Este sistema se encuentra diseñado para cuantificar el riesgo y predecir su impacto en los proyectos que se tienen en las organizaciones, con esto se puede deducir si el resultado es aceptable o inaceptable al ser un proceso continuo y disciplinado facilita la organización, planificación, el presupuesto y el control de costos, como se muestra en la siguiente figura
 
-    .row.justify-content-center.mb-5
-      .col-md-10(data-aos="fade-down") 
+    .row.justify-content-center.mb-4
+      .col-md-8(data-aos="fade-up")
         .titulo-sexto.color-acento-contenido
           p.mb-0 <b>Figura 5.</b> Ciclo de gestión del riesgo
-
-
-
+        Botones
 
 
     p.mb-5(data-aos="fade") A continuación, se presentarán las diferentes maneras de administrar el riesgo: 
@@ -85,7 +83,7 @@
     .row.mb-3
 
     .row.justify-content-center.bg-secundario-2.py-5
-      .col-md-10
+      .col-md-10(data-aos="fade-down") 
         SlyderE(indicadores="izquierda")
           .row
             .col-md-6.mb-4.mb-md-0
@@ -116,8 +114,12 @@
 </template>
 
 <script>
+import Botones from '../components/Botones.vue'
 export default {
   name: 'Tema4',
+  components: {
+    Botones,
+  },
   data: () => ({
     mostrarIndicador: true,
   }),
