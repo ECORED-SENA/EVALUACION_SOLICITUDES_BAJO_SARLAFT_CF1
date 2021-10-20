@@ -3,7 +3,7 @@
   .row.align-items-center.justify-content-around
     .col-md-11.mb-4.mb-md-0
       .botones
-        img(src='@/assets/curso/botones-fondo2.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/botones-fondo3.svg', alt='Texto que describa la imagen')
         .botones__item(
           v-for="(boton, index) in botones"
         )

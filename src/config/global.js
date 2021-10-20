@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'El riesgo con respecto a SARLAFT',
     descripcionCurso:
-      'La gestión de riesgo en Colombia y su aplicación en entidades privadas y públicas es un tema que se viene trabajando desde los años 90; sin embargo, en los últimos tiempos ha tomado no solo  fuerza sino importancia con el Sistema de administración del riesgo de lavado de activos y financiación del terrorismo (SARLAFT). <br/><br/>Todas las organizaciones deben prepararse para su conocimiento y su implementación, más que por cumplir un requisito, es un método de prevención y cuidado ante hechos de tipo delictivo a nivel organizacional.',
+      'La gestión de riesgo en Colombia y su aplicación en entidades privadas y públicas es un tema que se viene trabajando desde los años 90; sin embargo, en los últimos tiempos ha tomado no solo  fuerza sino importancia con el Sistema de Administración del Riesgo de Lavado de Activos y Financiación del Terrorismo (SARLAFT). <br/><br/>Todas las organizaciones deben prepararse para su conocimiento y su implementación, más que por cumplir un requisito, es un método de prevención y cuidado ante hechos de tipo delictivo a nivel organizacional.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -47,7 +47,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Línea de tiempo',
+            titulo: 'Línea de tiempo de normatividad',
             hash: 't_1_4',
           },
         ],
@@ -105,7 +105,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Gafilat. (2.020). Estándares internacionales sobre la lucha contra el lavado de activos y el financiamiento del terrorismo y el financiamiento de la proliferación de armas. Gafilat.',
+        'Gafilat. (2020). Estándares internacionales sobre la lucha contra el lavado de activos y el financiamiento del terrorismo y el financiamiento de la proliferación de armas. Gafilat. ',
       link:
         'https://www.gafilat.org/index.php/es/biblioteca-virtual/gafilat/documentos-de-interes-17/publicaciones-web/4013-recomendaciones-metodologia-actdic20-1/file ',
     },
@@ -117,14 +117,14 @@ export default {
 
     {
       referencia:
-        'Rojas, D  y Posada, L. (2021). Conocimiento del cliente: gestión efectiva del riesgo de lavado de activos y financiación del terrorismo en empresas aseguradoras. Universidad del Valle.',
+        'Rojas, D.  y Posada, L. (2021). Conocimiento del cliente: gestión efectiva del riesgo de lavado de activos y financiación del terrorismo en empresas aseguradoras. Universidad del Valle. ',
       link:
         'https://bibliotecadigital.univalle.edu.co/xmlui/bitstream/handle/10893/21092/CB-0605573.pdf?sequence=1&isAllowed=y ',
     },
 
     {
       referencia:
-        'Valbuena, A. (2.018). Sistema de administración del riesgo de lavado de activos INCP. ',
+        'Valbuena, A. (2018). Sistema de administración del riesgo de lavado de activos INCP. ',
       link:
         'https://incp.org.co/sistema-administracion-del-riesgo-lavado-activos/ ',
     },
@@ -186,7 +186,7 @@ export default {
         'Son las operaciones legalmente autorizadas que pueden adelantar las entidades vigiladas mediante la celebración de un contrato.',
     },
     {
-      termino: 'Resolución ',
+      termino: 'Resolución',
       significado:
         'Las resoluciones son decisiones, no normativas por parte de una autoridad ya sea política, administrativa o judicial que solventa un conflicto o da pautas a seguir en una materia determinada.',
     },
@@ -208,10 +208,10 @@ export default {
     {
       termino: 'Riesgos asociados al LA/FT',
       significado:
-        'Con los riesgos a través de los cuales se materializa el riesgo de LA/FT, estos son: reputacional, legal, operativo y de contagio. ',
+        'Son los riesgos a través de los cuales se materializa el riesgo de LA/FT, estos son: reputacional, legal, operativo y de contagio. ',
     },
     {
-      termino: 'Superintendencia Financiera de Colombia ',
+      termino: 'Superintendencia Financiera de Colombia',
       significado:
         'Es un organismo técnico adscrito al Ministerio de Hacienda y Crédito Público, con personería jurídica, autonomía administrativa, financiera y patrimonio propio.',
     },
@@ -234,7 +234,7 @@ export default {
   complementario: [
     {
       texto:
-        'Grupo Bancolombia.  (2014). ¿Sabes qué es el lavado de activos y cómo prevenirlo? [video]. YouTube. ',
+        'Grupo Bancolombia.  (2014). ¿Sabes qué es el lavado de activos y cómo prevenirlo? [Video]. YouTube. ',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=WT5YQ4qV9yY&ab_channel=GrupoBancolombia',
@@ -253,29 +253,30 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura -<br>Regional Santander',
       },
       {
         nombre: 'Jhon Jairo Villamizar Mora',
         cargo: 'Experto temático ',
         centro:
-          'Centro de la Industria, la Empresa y los Servicios CIES <br>Regional Norte de Santander',
+          'Centro de la Industria, la Empresa y los Servicios CIES -<br>Regional Norte de Santander',
       },
       {
         nombre: 'Claudia Milena Hernández Naranjo',
         cargo: 'Diseñadora instruccional',
-        centro: 'Centro de Diseño y Metrología <br>Regional Distrito Capital',
+        centro: 'Centro de Diseño y Metrología -<br>Regional Distrito Capital',
       },
       {
         nombre: 'Silvia Milena Sequeda Cárdenas',
         cargo: 'Evaluadora instruccional',
-        centro: 'Centro de Gestión Industrial <br>Regional de Distrito Capital',
+        centro:
+          'Centro de Gestión Industrial -<br>Regional de Distrito Capital',
       },
       {
         nombre: 'Julia Isabel Roberto',
         cargo: 'Diseñadora y evaluadora instruccional',
         centro:
-          'Centro para la Industria de la Comunicación Gráfica <br>Regional Distrito Capital',
+          'Centro para la Industria de la Comunicación Gráfica -<br>Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -283,49 +284,49 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura -<br>Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios <br>Regional Tolima',
+        centro: 'Centro de Comercio y Servicios -<br>Regional Tolima',
       },
       {
         nombre: 'Juan Carlos Tapias Rueda',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura -<br>Regional Santander',
       },
       {
         nombre: 'Andrea Paola Botello De la Rosa',
         cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura -<br>Regional Santander',
       },
       {
         nombre: 'Andres Mauricio Santaella Ochoa',
         cargo: 'Soporte front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura -<br>Regional Santander',
       },
       {
         nombre: ' ',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura -<br>Regional Santander',
       },
       {
         nombre: ' ',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura -<br>Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios <br>Regional Tolima',
+        centro: 'Centro de Comercio y Servicios -<br>Regional Tolima',
       },
     ],
   },

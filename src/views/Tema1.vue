@@ -13,7 +13,7 @@
         figure.mb-5
           img(src='@/assets/curso/banner-tema1.png', alt='Texto que describa la imagen')
 
-    p.mb-4(data-aos="fade") El Sistema de administración del riesgos de lavado de activos y de financiación del terrorismo –<b>SARLAFT</b> se creó mediante la circular 22 de 2007, que fue modificada de la circular básica jurídica de la antigua Superintendencia Bancaria– hoy conocida como Superintendencia Financiera, la cual en el año 2008 se actualizó y se mejoró, ahora se conoce como Sistema integral para la prevención del lavado de activos (SIPLA) y así se nació el nuevo sistema llamado <b>SARLAFT</b>, como se muestra la siguiente figura.      
+    p.mb-4(data-aos="fade") El Sistema de Administración del Riesgos de Lavado de Activos y de Financiación del Terrorismo –<b>SARLAFT</b> se creó mediante la circular 22 de 2007, que fue modificada de la Circular Básica Jurídica de la antigua Superintendencia Bancaria– hoy conocida como Superintendencia Financiera, la cual en el año 2008 se actualizó y se mejoró, ahora se conoce como Sistema Integral para la Prevención del Lavado de Activos (SIPLA) y así nació el nuevo sistema llamado <b>SARLAFT</b>, como se muestra en la siguiente figura:      
 
     .row.justify-content-end.mb-4
       .col-md-5(data-aos="fade-up")
@@ -65,26 +65,26 @@
     p.mb-4(data-aos="fade") En la Superintendencia Financiera de Colombia se establece que para poder llevar a cabo la implementación en las entidades de este sistema se debe cumplir con cuatro etapas que son: 
 
     .row(data-aos="fade-down")
-      .col-md-3.mb-3
+      .col-lg-3.col-md-6.mb-3
         .block
           .block--img.block1
           .block--text
             h4 Identificar el riesgo
             p Se debe identificar todos los riesgos que posiblemente estén implicados con el lavado de activos y la financiación del terrorismo.
-      .col-md-3.mb-3
+      .col-lg-3.col-md-6.mb-3
         .block(@mouseover="mostrarIndicador = false", onclick="")
           .indicador--click(v-if="mostrarIndicador")
           .block--img.block2
           .block--text
             h4 Medición y/o impacto del riesgo
             p Todas las organizaciones que disponen o deseen disponer de un SARLAFT deben medir la probabilidad de riesgo que puede tener la entidad y que puede generar.
-      .col-md-3.mb-3
+      .col-lg-3.col-md-6.mb-3
         .block
           .block--img.block3
           .block--text
             h4 Control de riesgo
             p Se deben establecer ciertas medidas para controlar los riesgos que sean identificados.
-      .col-md-3
+      .col-lg-3.col-md-6
         .block
           .block--img.block4
           .block--text
@@ -98,56 +98,56 @@
     #t_1_2.titulo-segundo(data-aos="fade-right")
       .h2 1.2  Elementos
 
-    p.mb-4(data-aos="fade") Para que este sistema funcione y sea constituido como tal se debe implementar ocho elementos primordiales, estos componentes son los siguientes: 
+    p.mb-4(data-aos="fade") Para que este sistema funcione y sea constituido como tal, se deben implementar ocho elementos primordiales, estos componentes son los siguientes: 
     
     AcordeonB(tipo="a" clase-tarjeta="tarjeta color-secundario" data-aos="fade-down")
-      .row.align-items-center(titulo="Políticas")
-        .col-md-2
+      .row.align-items-center.justify-content-center(titulo="Políticas")
+        .col-md-2.col-4.mb-md-0.mb-4
           figure
-            img.px-md-4(src='@/assets/curso/tema1-2-acord1.svg', alt='Texto que describa la imagen')
-        .col-md-9.mb-4.mb-md-0
+            img.px-lg-3(src='@/assets/curso/tema1-2-acord1.svg', alt='Texto que describa la imagen')
+        .col-md-10.mb-4.mb-md-0
           p Estas nacen de objetivos claros y aplicables.
-      .row.align-items-center(titulo="Procedimientos")
-        .col-md-2
+      .row.align-items-center.justify-content-center(titulo="Procedimientos")
+        .col-md-2.col-4.mb-md-0.mb-4
           figure
-            img.px-md-4(src='@/assets/curso/tema1-2-acord2.svg', alt='Texto que describa la imagen')
-        .col-md-9.mb-4.mb-md-0
+            img.px-lg-3(src='@/assets/curso/tema1-2-acord2.svg', alt='Texto que describa la imagen')
+        .col-md-10.mb-4.mb-md-0
           p Es la forma de ejecutar un determinado elemento o etapa.    
-      .row.align-items-center(titulo="Documentación")
-        .col-md-2
+      .row.align-items-center.justify-content-center(titulo="Documentación")
+        .col-md-2.col-4.mb-md-0.mb-4
           figure
-            img.px-md-4(src='@/assets/curso/tema1-2-acord3.svg', alt='Texto que describa la imagen')
-        .col-md-9.mb-4.mb-md-0
+            img.px-lg-3(src='@/assets/curso/tema1-2-acord3.svg', alt='Texto que describa la imagen')
+        .col-md-10.mb-4.mb-md-0
           p Son los registros que muestran el efectivo cumplimiento y la disponibilidad de la información.
-      .row.align-items-center(titulo="Estructura organizacional")
-        .col-md-2
+      .row.align-items-center.justify-content-center(titulo="Estructura organizacional")
+        .col-md-2.col-4.mb-md-0.mb-4
           figure
-            img.px-md-4(src='@/assets/curso/tema1-2-acord4.svg', alt='Texto que describa la imagen')
-        .col-md-9.mb-4.mb-md-0
+            img.px-lg-3(src='@/assets/curso/tema1-2-acord4.svg', alt='Texto que describa la imagen')
+        .col-md-10.mb-4.mb-md-0
           p Es un esquema jerarquizado. 
-      .row.align-items-center(titulo="Órganos de control")
-        .col-md-2
+      .row.align-items-center.justify-content-center(titulo="Órganos de control")
+        .col-md-2.col-4.mb-md-0.mb-4
           figure
-            img.px-md-4(src='@/assets/curso/tema1-2-acord5.svg', alt='Texto que describa la imagen')
-        .col-md-9.mb-4.mb-md-0
+            img.px-lg-3(src='@/assets/curso/tema1-2-acord5.svg', alt='Texto que describa la imagen')
+        .col-md-10.mb-4.mb-md-0
           p Para esto se requiere de responsables que hagan seguimiento y evaluación.  
-      .row.align-items-center(titulo="Infraestructura tecnológica")
-        .col-md-2
+      .row.align-items-center.justify-content-center(titulo="Infraestructura tecnológica")
+        .col-md-2.col-4.mb-md-0.mb-4
           figure
-            img.px-md-4(src='@/assets/curso/tema1-2-acord6.svg', alt='Texto que describa la imagen')
-        .col-md-9.mb-4.mb-md-0
+            img.px-lg-3(src='@/assets/curso/tema1-2-acord6.svg', alt='Texto que describa la imagen')
+        .col-md-10.mb-4.mb-md-0
           p Es importante disponer de la tecnología y herramientas necesarias y acordes a la realidad de la empresa.
-      .row.align-items-center(titulo="Divulgación de información")
-        .col-md-2
+      .row.align-items-center.justify-content-center(titulo="Divulgación de información")
+        .col-md-2.col-4.mb-md-0.mb-4
           figure
-            img.px-md-4(src='@/assets/curso/tema1-2-acord7.svg', alt='Texto que describa la imagen')
-        .col-md-9.mb-4.mb-md-0
-          p Son los  canales de comunicación, tanto internos como externos deben ser efectivos y eficientes.
-      .row.align-items-center(titulo="Capacitación")
-        .col-md-2
+            img.px-lg-3(src='@/assets/curso/tema1-2-acord7.svg', alt='Texto que describa la imagen')
+        .col-md-10.mb-4.mb-md-0
+          p Son los canales de comunicación, tanto internos como externos, deben ser efectivos y eficientes.
+      .row.align-items-center.justify-content-center(titulo="Capacitación")
+        .col-md-2.col-4.mb-md-0.mb-4
           figure
-            img.px-md-4(src='@/assets/curso/tema1-2-acord8.svg', alt='Texto que describa la imagen')
-        .col-md-9.mb-4.mb-md-0
+            img.px-lg-3(src='@/assets/curso/tema1-2-acord8.svg', alt='Texto que describa la imagen')
+        .col-md-10.mb-4.mb-md-0
           p Al final se requiere la elaboración y diseño de un plan formativo sobre SARLAFT .
 
     Separador
@@ -160,15 +160,15 @@
     p.mb-5(data-aos="fade") Según la Guía de Normatividad ALA/CFT de la Unidad de Información y Análisis Financiero – UIAF estos son los sectores donde la implementación SARLAFT aplica:  
 
     .row.align-items-center.mb-4(data-aos="fade-right")
-      .col-md-1.titulo-tercero.m-0
+      .col-md-1.col-3.titulo-tercero.m-0
         img.p-2.py-3(src='@/assets/curso/tema1-3-ico1.svg', alt='Texto que describa la imagen')
-      .col-md-7.m-0.p-0.titulo-tercero-2
+      .col-md-11.col-9.m-0.p-0.titulo-tercero-2
         h4.mb-0
-          span.mb-0.text-white Sector vigilado por la Superintendencia Financiera de Colombia.   
+          span.mb-0.text-white Sector vigilado por la Superintendencia Financiera de Colombia   
 
     .row
       .col-md-6.mb-4(data-aos="fade-right")
-        p Para la Superintendencia financiera de Colombia SFC existen ciertas normas, que permiten regular el cumplimiento de SARLAFT, a continuación, algunas de estas:
+        p Para la Superintendencia Financiera de Colombia SFC existen ciertas normas, que permiten regular el cumplimiento de SARLAFT, a continuación, algunas de estas:
         a.anexo.mb-4.mb-lg-3(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=1348" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
@@ -198,7 +198,7 @@
               strong SIREL 
               | también facilita la consulta de los certificados de cargue en cualquier momento que se requiera. 
 
-    p.mb-4(data-aos="fade") A continuación, se visualizan los tipos de reportes que se deben realizar a la UIAF, mediante la aplicación SIREL, como se muestra en la siguiente tabla.
+    p.mb-4(data-aos="fade") A continuación, se visualizan los tipos de reportes que se deben realizar a la UIAF, mediante la aplicación SIREL, como se muestra en la siguiente tabla:
 
     .titulo-sexto.color-acento-contenido
       p.mb-0 <b>Tabla 1.</b> Tipo de reportes para el sector vigilado por la SFC.
@@ -324,11 +324,11 @@
               strong UIAF                        
 
     .row.align-items-center.mb-4(data-aos="fade-right")
-      .col-md-1.titulo-tercero.m-0
+      .col-md-1.col-3.titulo-tercero.m-0
         img.p-2.py-3(src='@/assets/curso/tema1-3-ico2.svg', alt='Texto que describa la imagen')
-      .col-md-11.m-0.p-0.titulo-tercero-2
+      .col-md-11.col-9.m-0.p-0.titulo-tercero-2
         h4.mb-0
-          span.mb-0.text-white Sector vigilado por el Ministerio de Tecnología de la Información y las Comunicaciones – MinTIC   
+          span.mb-0.text-white Sector vigilado por el Ministerio de Tecnologías de la Información y las Comunicaciones – MinTIC   
 
     .row
       .col-md-6.mb-4(data-aos="fade-right")
@@ -349,7 +349,7 @@
 
     p(data-aos="fade") Estas normas las deben aplicar los operadores de servicios postales de pago y los operadores de postal oficial.
 
-    p.mb-4(data-aos="fade") Los tipos de reportes que deben realizarse a la UAIF se muestran en la siguiente figura.
+    p.mb-4(data-aos="fade") Los tipos de reportes que deben realizarse a la UAIF se muestran en la siguiente figura:
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-10
@@ -362,23 +362,23 @@
 
 
     .row.align-items-center.mb-4(data-aos="fade-right")
-      .col-md-1.titulo-tercero.m-0
+      .col-md-1.col-3.col-3.titulo-tercero.m-0
         img.p-2.py-3(src='@/assets/curso/tema1-3-ico3.svg', alt='Texto que describa la imagen')
-      .col-md-11.m-0.p-0.titulo-tercero-2
+      .col-md-11.col-9.col-9.m-0.p-0.titulo-tercero-2
         h4.mb-0
           span.mb-0.text-white Sector vigilado por la Superintendencia de la Economía Solidaria
 
     .row
       .col-md-6.mb-4(data-aos="fade-right")
-        p Este sector los regula la norma de la circular básica jurídica de la Superintendencia de la Economía Solidaria, estas normas las deben aplicar todas las entidades solidarias vigiladas por la Supersolidaria.
+        p Este sector lo regula la norma de la Circular Básica Jurídica de la Superintendencia de la Economía Solidaria, estas normas las deben aplicar todas las entidades solidarias vigiladas por la Supersolidaria.
       .col-md-6(data-aos="fade-left")
         figure.mb-5
           img(src='@/assets/curso/tema1-3-img4.png', alt='Texto que describa la imagen') 
 
-    p.mb-4(data-aos="fade") Se aplica el sistema SARLAFT y se deben realizar los siguientes reportes a la UIAF mediante el SIREL y su periodicidad, como se muestra en la siguiente tabla.
+    p.mb-4(data-aos="fade") Se aplica el sistema SARLAFT y se deben realizar los siguientes reportes a la UIAF mediante el SIREL y su periodicidad, como se muestra en la siguiente tabla:
 
     .titulo-sexto.color-acento-contenido
-      p.mb-0 <b>Tabla 2.</b> Tipos de reportes sector Superintendencia de la Economía Solidaria.
+      p.mb-0 <b>Tabla 2.</b> Tipos de reportes sector Superintendencia de la Economía Solidaria
     .tabla-a.color-acento-botones.mb-5 
       table
         caption Nota. Tomado de la Unidad de Información y Análisis Financiero.  
@@ -476,9 +476,9 @@
                 | Las demás organizaciones vigiladas y clasificadas en el nivel 3 de supervisión.
 
     .row.align-items-center.mb-4(data-aos="fade-right")
-      .col-md-1.titulo-tercero.m-0
+      .col-md-1.col-3.titulo-tercero.m-0
         img.p-2.py-3(src='@/assets/curso/tema1-3-ico4.svg', alt='Texto que describa la imagen')
-      .col-md-11.m-0.p-0.titulo-tercero-2
+      .col-md-11.col-9.m-0.p-0.titulo-tercero-2
         h4.mb-0
           span.mb-0.text-white Sector vigilado por la Superintendencia de Vigilancia y Seguridad Privada
 
@@ -524,7 +524,7 @@
     .row.justify-content-center
       .col-md-9(data-aos="fade-down") 
         .titulo-sexto.color-acento-contenido
-          p.mb-0 <b>Tabla 3.</b> Tipo de reportes para el sector vigilado por la Superintendencia de Vigilancia y Seguridad Privada.
+          p.mb-0 <b>Tabla 3.</b> Tipo de reportes para el sector vigilado por la Superintendencia de Vigilancia y Seguridad Privada
         .tabla-a.color-acento-botones.mb-5 
           table
             caption Nota. Tomado de la Unidad de Información y Análisis Financiero. 
@@ -602,7 +602,7 @@
     .row.justify-content-center
       .col-md-10(data-aos="fade-down") 
         .titulo-sexto.color-acento-contenido
-          p.mb-0 <b>Tabla 4.</b> Circulares.
+          p.mb-0 <b>Tabla 4.</b> Circulares
         .tabla-a.color-acento-botones.mb-5 
           table
             thead
@@ -625,7 +625,7 @@
               tr
                 td Circular No. 20182000000045 de febrero de 2018
                 td 
-                  strong Se debe aplicar el sistema de Administración del Riesgo de Lavado de Activos y de la Financiación del Terrorismo - SARLAFT.       
+                  strong Se debe aplicar el Sistema de Administración del Riesgo de Lavado de Activos y de la Financiación del Terrorismo - SARLAFT.       
 
     p.mb-4(data-aos="fade") Para este sector varían los tipos de reportes a la UIAF, teniendo en cuenta cada circular.
 
@@ -638,7 +638,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.mb-2 Guia de normatividad ALACFT 2020
+                  h4.mb-2 Guia de normatividad ALA/CFT 2020
                   p.mb-0.text-small En el presente archivo, encontrará los diferentes tipos de reportes, teniendo en cuenta las circulares expedidas. 
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_1_Guia_de_normatividad_ALACFT_2020.pdf')" target="_blank")
@@ -646,15 +646,15 @@
                     i.fas.fa-file-download  
 
     .row.align-items-center.mb-4(data-aos="fade-right")
-      .col-md-1.titulo-tercero.m-0
+      .col-md-1.col-3.titulo-tercero.m-0
         img.p-2.py-3(src='@/assets/curso/tema1-3-ico5.svg', alt='Texto que describa la imagen')
-      .col-md-11.m-0.p-0.titulo-tercero-2
+      .col-md-11.col-9.m-0.p-0.titulo-tercero-2
         h4.mb-0
-          span.mb-0.text-white Sector vigilado por la Dirección de Impuestos y Aduana Nacionales - DIAN - Cambistas profesionales
+          span.mb-0.text-white Sector vigilado por la Dirección de Impuestos y Aduanas Nacionales - DIAN - Cambistas profesionales
 
     .row
       .col-md-6.mb-4(data-aos="fade-right")
-        p A este sector los regula las normas:
+        p A este sector lo regulan las normas:
         a.anexo.mb-4.mb-lg-3(href="https://www.uiaf.gov.co/sistema_nacional_ala_cft/normatividad_sistema/resoluciones/resolucion_59_2013" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
@@ -670,13 +670,13 @@
         figure.mb-5
           img(src='@/assets/curso/tema1-3-img6.png', alt='Texto que describa la imagen') 
 
-    p.mb-4(data-aos="fade") A estas normas se les debe realizar los siguientes reportes para la UIAF, mencionados en la siguiente tabla: 
+    p.mb-4(data-aos="fade") A estas normas se les deben realizar los reportes para la UIAF, mencionados en la siguiente tabla: 
 
     .titulo-sexto.color-acento-contenido
       p.mb-0 <b>Tabla 5.</b> Tipos de reportes sector vigilado por la DIAN
     .tabla-a.color-acento-botones.mb-5 
       table
-        caption Nota. Tomado de la Unidad de Información y Análisis Financiero.
+        caption Nota. Tomado de la Unidad de Información y Análisis Financiero. 
           strong https://www.uiaf.gov.co/sala_prensa/publicaciones/guia_normatividad_ala_cft
         thead
           tr
@@ -730,26 +730,26 @@
               strong UIAF
 
     .row.align-items-center.mb-4(data-aos="fade-right")
-      .col-md-1.titulo-tercero.m-0
+      .col-md-1.col-3.titulo-tercero.m-0
         img.p-2.py-3(src='@/assets/curso/tema1-3-ico6.svg', alt='Texto que describa la imagen')
-      .col-md-11.m-0.p-0.titulo-tercero-2
+      .col-md-11.col-9.m-0.p-0.titulo-tercero-2
         h4.mb-0
           span.mb-0.text-white Sector vigilado por la Superintendencia Nacional de Salud
 
-    p.mb-4(data-aos="fade") En este sector se regula la norma de la circular externa No. 000009 de abril de 2016 de la Superintendencia Nacional de Salud, estas normas se deben aplicar en las entidades que aparecen en la siguiente figura:
+    p.mb-4(data-aos="fade") En este sector se regula la norma de la Circular Externa No. 000009 de abril de 2016 de la Superintendencia Nacional de Salud, estas normas se deben aplicar en las entidades que aparecen en la siguiente figura:
 
     .titulo-sexto.color-acento-contenido
-      p.mb-0 <b>Figura 2.</b> Tipos de reportes
+      p.mb-0 <b>Figura 3.</b> Entidades
     figure.mb-5
-          img(src='@/assets/curso/tema1-figura2.svg', alt='Tipos de reportes')    
+          img(src='@/assets/curso/tema1-figura2.svg', alt='Entidades')    
 
-    p.mb-4(data-aos="fade") A este sector se debe aplicar el sistema SARLAFT y a su vez se deben realizar los reportes a la UIAF, como se menciona en la siguiente tabla:
+    p.mb-4(data-aos="fade") A este sector se debe aplicar el SARLAFT y a su vez se deben realizar los reportes a la UIAF, como se menciona en la siguiente tabla:
 
     .titulo-sexto.color-acento-contenido
       p.mb-0 <b>Tabla 6.</b> Tipos de reportes sector vigilado por la Superintendencia de Salud
     .tabla-a.color-acento-botones.mb-5 
       table
-        caption Nota. Tomado de la Unidad de Información y Análisis Financiero.
+        caption Nota. Tomado de la Unidad de Información y Análisis Financiero. 
           strong https://www.uiaf.gov.co/sala_prensa/publicaciones/guia_normatividad_ala_cft
         thead
           tr
@@ -832,7 +832,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.mb-2 Linea de tiempo evolución normativa
-                  p.mb-0.text-small En el presente archivo la mención de la normativa expedida por el gobierno a través de los últimos años, sobre el cumplimiento que se debe llevar frente a esta temática. 
+                  p.mb-0.text-small En el presente archivo la mención de la normativa expedida por el Gobierno a través de los últimos años, sobre el cumplimiento que se debe llevar frente a esta temática. 
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo2_Linea_de_tiempo_evolucion_normativa_lavado_activos_1990-2017.pdf')" target="_blank")
                     span Descargar

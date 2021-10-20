@@ -20,7 +20,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema4-img1.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 “El riesgo es la exposición a una situación donde hay una posibilidad de sufrir un daño o de estar en peligro. Es la vulnerabilidad o amenaza a que ocurra un evento y sus efectos sean negativos y que alguien o algo puedan verse afectados por él. Cuando se dice que un sujeto está en riesgo es porque se considera que se encuentra en desventaja frente a algo más, bien sea por su ubicación o posición, además de ser susceptible a recibir una amenaza sin importar cuál sea su índole” (ConceptoDefinicion, s.f.). 
+            p.mb-0 “El riesgo es la exposición a una situación donde hay una posibilidad de sufrir un daño o de estar en peligro. Es la vulnerabilidad o amenaza a que ocurra un evento y sus efectos sean negativos y que alguien o algo puedan verse afectados por él. Cuando se dice que un sujeto está en riesgo es porque se considera que se encuentra en desventaja frente a algo más, bien sea por su ubicación o posición, además de ser susceptible a recibir una amenaza sin importar cuál sea su índole” (ConceptoDefinición, s.f.). 
 
     .row.justify-content-center.mb-5(data-aos="fade")
       .col-md-8.bg-secundario-2.border-bottom-verde.p-4.px-md-5(data-aos="fade") 
@@ -39,7 +39,7 @@
             i.fas.fa-square
             | Se pueden obtener beneficios, al identificar y solucionar estos riesgos.     
 
-    p.mb-4(data-aos="fade")  Este sistema se encuentra diseñado para cuantificar el riesgo y predecir su impacto en los proyectos que se tienen en las organizaciones, con esto se puede deducir si el resultado es aceptable o inaceptable al ser un proceso continuo y disciplinado facilita la organización, planificación, el presupuesto y el control de costos, como se muestra en la siguiente figura
+    p.mb-4(data-aos="fade")  Este sistema se encuentra diseñado para cuantificar el riesgo y predecir su impacto en los proyectos que se tienen en las organizaciones, con esto se puede deducir si el resultado es aceptable o inaceptable; al ser un proceso continuo y disciplinado facilita la organización, planificación, el presupuesto y el control de costos, como se muestra en la siguiente figura:
 
     .row.justify-content-center.mb-4
       .col-md-8(data-aos="fade-up")
@@ -51,7 +51,7 @@
     p.mb-5(data-aos="fade") A continuación, se presentarán las diferentes maneras de administrar el riesgo: 
 
     .row.mb-5(data-aos="fade-down") 
-      .col-md-4
+      .col-lg-4.col-md-6
         .cards
           .face.face1
             .content.text-center
@@ -60,7 +60,7 @@
           .face.face2.p-2.px-4
             .content.text-center
               p.mb-0 Uso sistemático de la información disponible para determinar qué tan frecuentemente pueden ocurrir eventos especificados y la magnitud de sus consecuencias. 
-      .col-md-4
+      .col-lg-4.col-md-6
         .cards(@mouseover="mostrarIndicador = false", onclick="")
           .indicador--click(v-if="mostrarIndicador")
           .face.face1
@@ -70,7 +70,7 @@
           .face.face2.p-2.px-4
             .content.text-center
               p.mb-0 Una decisión informada de aceptar consecuencias y probabilidades de un riesgo particular.
-      .col-md-4
+      .col-lg-4.col-md-6
         .cards
           .face.face1
             .content.text-center
@@ -81,6 +81,7 @@
               p.mb-0 La cultura, procesos y estructuras que están dirigidas hacia la administración efectiva de oportunidades potenciales y efectos adversos.
     
     .row.mb-3
+    p.mb-4(data-aos="fade") A continuación, se presentarán las diferentes maneras de administrar el riesgo:
 
     .row.justify-content-center.bg-secundario-2.py-5
       .col-md-10(data-aos="fade-down") 
