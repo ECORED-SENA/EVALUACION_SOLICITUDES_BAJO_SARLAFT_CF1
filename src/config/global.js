@@ -110,8 +110,7 @@ export default {
         'https://www.gafilat.org/index.php/es/biblioteca-virtual/gafilat/documentos-de-interes-17/publicaciones-web/4013-recomendaciones-metodologia-actdic20-1/file ',
     },
     {
-      referencia:
-        'INFOLAFT. (2021). SARLAFT 4.0 y la transformación del sistema antilavado. INFOLAFT. ',
+      referencia: 'INFOLAFT (2.021). SARLAFT. ',
       link: 'https://www.infolaft.com/?s=sarlaft ',
     },
 
