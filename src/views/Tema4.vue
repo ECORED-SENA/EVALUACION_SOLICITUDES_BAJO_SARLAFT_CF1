@@ -81,7 +81,12 @@
               p.mb-0 La cultura, procesos y estructuras que están dirigidas hacia la administración efectiva de oportunidades potenciales y efectos adversos.
     
     .row.mb-3
-    p.mb-4(data-aos="fade") A continuación, se presentarán las diferentes maneras de administrar el riesgo:
+    .row.align-items-center.mb-4(data-aos="fade-right")
+      .col-md-1.col-3.titulo-tercero.m-0
+        img.p-2.py-3(src='@/assets/curso/tema4-ico.svg', alt='Texto que describa la imagen')
+      .col-md-11.col-9.m-0.p-0.titulo-tercero-2
+        h4.mb-0
+          span.mb-0.text-white Los riesgos asociados al lavado de activos y financiación del terrorismo
 
     .row.justify-content-center.bg-secundario-2.py-5
       .col-md-10(data-aos="fade-down") 

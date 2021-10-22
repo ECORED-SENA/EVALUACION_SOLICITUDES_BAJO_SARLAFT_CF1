@@ -13,7 +13,7 @@
         figure.mb-5
           img(src='@/assets/curso/banner-tema1.png', alt='Texto que describa la imagen')
 
-    p.mb-4(data-aos="fade") El Sistema de Administración del Riesgos de Lavado de Activos y de Financiación del Terrorismo –<b>SARLAFT</b> se creó mediante la circular 22 de 2007, que fue modificada de la Circular Básica Jurídica de la antigua Superintendencia Bancaria– hoy conocida como Superintendencia Financiera, la cual en el año 2008 se actualizó y se mejoró, ahora se conoce como Sistema Integral para la Prevención del Lavado de Activos (SIPLA) y así nació el nuevo sistema llamado <b>SARLAFT</b>, como se muestra en la siguiente figura:      
+    p.mb-4(data-aos="fade") El Sistema de Administración del Riesgos de Lavado de Activos y de Financiación del Terrorismo –<b>SARLAFT</b> se creó mediante la Circular 22 de 2007, que fue modificada de la Circular Básica Jurídica de la antigua Superintendencia Bancaria– hoy conocida como Superintendencia Financiera, la cual en el año 2008 se actualizó y se mejoró, ahora se conoce como Sistema Integral para la Prevención del Lavado de Activos (SIPLA) y así nació el nuevo sistema llamado <b>SARLAFT</b>, como se muestra en la siguiente figura:      
 
     .row.justify-content-end.mb-4
       .col-md-5(data-aos="fade-up")
