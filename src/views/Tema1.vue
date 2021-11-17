@@ -168,7 +168,7 @@
 
     .row
       .col-md-6.mb-4(data-aos="fade-right")
-        p Para la Superintendencia Financiera de Colombia SFC existen ciertas normas, que permiten regular el cumplimiento de SARLAFT, a continuación, algunas de estas:
+        p Para la Superintendencia Financiera de Colombia (SFC) existen ciertas normas, que permiten regular el cumplimiento de SARLAFT, a continuación, algunas de estas:
         a.anexo.mb-4.mb-lg-3(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=1348" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")

@@ -21,7 +21,7 @@
               img(src='@/assets/curso/tema3-img1.svg', alt='Texto que describa la imagen')  
             .col-lg-8
               .bloque-texto-a__texto.p-4
-                p.mb-0 La UIAF – Unidad de Información y Análisis Financiero toma la definición de “A review of Sources on Terrorist Financing” que define el terrorismo como un método para realizar acciones violentas repetitivas, utilizando individuos, grupos o actores clandestinos (semi)estatales, por razones ideológicas, religiosas o políticas.
+                p.mb-0 La UIAF – Unidad de Información y Análisis Financiero toma la definición de “A review of Sources on Terrorist Financing” que define el terrorismo como un método para realizar acciones violentas repetitivas, utilizando individuos, grupos o actores clandestinos semiestatales, por razones ideológicas, religiosas o políticas.
 
     p(data-aos="fade") La financiación del terrorismo está directamente relacionada con los fondos, bienes o recursos a los que ingresan las organizaciones terroristas para mantener sus actividades ilícitas.
 
